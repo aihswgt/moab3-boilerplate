@@ -14,7 +14,6 @@ export default class CardComponent extends React.Component {
   render() {
     const imgStyle = {
       topWidth: '50%',
-
     }
     const user = this.props.data
     return (

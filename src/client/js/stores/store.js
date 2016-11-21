@@ -11,7 +11,7 @@ class Store extends EventEmitter {
     return this.users
   }
   initStore() {
-    axios.get('https://randomuser.me/api/?results=12')
+    axios.get('https://randomuser.me/api/?results=15')
       .then((res) => {
         this.users = res.data.results
         console.log(this)
