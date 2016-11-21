@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+.card {
+  -webkit-box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+.card-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50pt;
+  border: 2pt solid #fff;
+  background: #F7F9F9;
+}
+.card-img-container {
+  height: 100pt;
+  width: 100%;
+  background: #f2f2f2;
+}
