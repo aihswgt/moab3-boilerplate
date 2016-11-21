@@ -16,7 +16,6 @@ export default class ContentContainer extends React.Component {
       users: [],
       detail: this.props.params.id
     }
-    console.log('THISHIHTSIHTISHTI' + this.props.params)
     this.getUsers = this.getUsers.bind(this)
     this.showDetail = this.showDetail.bind(this)
   }
