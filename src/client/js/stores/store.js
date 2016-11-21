@@ -39,7 +39,6 @@ class Store extends EventEmitter {
   }
   changeUserdata(index, prop, data) {
     console.log('IN CHANGEUSERDATA! ' + prop)
-    console.log(this.users)
     let users = this.users
     switch(prop) {
       case 'street':
